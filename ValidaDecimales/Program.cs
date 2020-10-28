@@ -15,6 +15,7 @@ namespace ValidaDecimales
                 String.Format("{0:0.##}", Value);
                 Console.WriteLine($"Element{count }:{Value}");
             }
+            Console.WriteLine("Numero de elementos: " + count);
         }
     }
 }
